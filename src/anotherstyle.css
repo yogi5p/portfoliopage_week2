@@ -1,0 +1,92 @@
+body {
+  background: #e0dfa3;
+  color: rgb(27, 100, 27);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.personal-container {
+  margin-left: 5px;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 15px;
+  padding-left: 5px;
+  padding-top: 15px;
+}
+.personal-row {
+  margin-left: 5px;
+  display: flex;
+  align-content: space-between;
+  justify-content: flex-start;
+}
+
+.mygitbutton {
+  margin-left: 15px;
+}
+.media-container {
+  margin-left: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-around;
+  padding-right: 15px;
+  padding-left: 5px;
+  padding-top: 15px;
+}
+.media-row {
+  margin-left: 5px;
+  display: flex;
+  align-content: space-between;
+  justify-content: flex-start;
+  width: 100%;
+}
+.media-col {
+  margin-left: 5px;
+  display: flex;
+  align-content: space-between;
+  justify-content: flex-start;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.name {
+  font-size: 26px;
+  float: left;
+}
+.phone {
+  font-size: 14px;
+  float: left;
+}
+.email {
+  font-size: 14px;
+  float: right;
+}
+.designation {
+  font-size: 16px;
+  float: right;
+}
+
+.summary,
+.education {
+  margin-left: 5px;
+}
+.list-group > .list-group-item {
+  background: #e0dfa3;
+}
